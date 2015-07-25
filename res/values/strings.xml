@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flash</string>
+    <string name="action_settings">Settings</string>
+    <string name="copyright_info">Copyright by JonathanHsia</string>
+    <string name="song_name">歌曲名:</string>
+    <string name="song_info">歌曲信息</string>
+    <string name="song_album">歌曲集</string>
+    <string name="previous_song">上一首</string>
+    <string name="music_play">播放</string>
+    <string name="next_song">下一首</string>
+    <string name="play_progress">播放进度</string>
+    <string name="all_progress">总进度</string>
+    <string name="play_page">播放页面</string>
+    <string name="song_list">歌曲列表</string>
+    <string name="lyric_lay">歌词页面</string>
+    <string name="artist">艺术家</string>
+    <string name="shu_gang">|</string>
+    <string name="album">专辑</string>
+    <string name="loading_alt">亲爱的,拼命加载中</string>
+    <string name="lyric">歌词</string>
+    <string name="serach">搜索</string>
+    <string name="download_point">亲还没有歌词,点击在线下载</string>
+    <string name="song_album_pic">歌曲专辑图片</string>
+    <string name="cd_pic_panel">cd图片背景</string>
+    <string name="playmode">播放模式</string>
+    <string name="online_download_button">在线下载按钮</string>
+    <string name="album_name">专辑名:</string>
+    <string name="singer_name">歌手名:</string>
+    <string name="download_lyric">歌词下载</string>
+    <string name="yl_o_jn">YLლ(^o^ლ)JN</string>
+    <string name="notity_song_icon">通知栏歌曲图标</string>
+    <string name="quick_set">快速设置</string>
+    <string name="song_play_state">歌曲的播放状态</string>
+    <string name="load_lyric">亲爱的,拼命加载中..</string>
+    <string name="no_search_lyric">亲,没有搜索到资源..</string>
+
+</resources>

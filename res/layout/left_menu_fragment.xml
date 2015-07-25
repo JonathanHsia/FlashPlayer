@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jn="http://schemas.android.com/apk/res/com.jonthanhsia.flashplayer"
+    android:id="@+id/menu_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_white"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/quick_set"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.jonthanhsia.flashplayer.view.ToggleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            jn:slideButton="@drawable/slide_button"
+            jn:switchBackground="@drawable/switch_background"
+            jn:toggleState="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="睡眠模式"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <SeekBar 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        />
+
+</LinearLayout>

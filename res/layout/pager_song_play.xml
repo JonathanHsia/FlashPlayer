@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_playSong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:contentDescription="@string/song_album_pic"
+            android:id="@+id/iv_song_album"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+             />
+
+        <ImageView
+            android:contentDescription="@string/cd_pic_panel"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:background="@drawable/cd_panel_bg"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <ImageButton
+            android:contentDescription="@string/playmode"
+            android:id="@+id/ib_play_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/playmode_normal" />
+        
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:contentDescription="@string/playmode"
+            android:id="@+id/ib_play_dolwnload_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_download_album_bg" />
+    </LinearLayout>
+
+</LinearLayout>

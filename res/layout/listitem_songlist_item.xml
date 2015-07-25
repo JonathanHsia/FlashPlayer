@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+     >
+
+    <TextView
+        android:id="@+id/lt_tv_song_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="@string/song_name"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lt_tv_song_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/lt_tv_song_name"
+        android:layout_below="@id/lt_tv_song_name"
+        android:layout_marginRight="5dp"
+        android:singleLine="true"
+        android:text="@string/artist"
+        android:textColor="@color/gray_white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/shugang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lt_tv_song_name"
+        android:layout_toRightOf="@id/lt_tv_song_artist"
+        android:text="@string/shu_gang"
+        android:textColor="@color/gray_white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/lt_tv_song_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lt_tv_song_name"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/shugang"
+        android:singleLine="true"
+        android:text="@string/album"
+        android:textColor="@color/gray_white"
+        android:textSize="15sp" 
+        />
+
+    <ImageView
+        android:contentDescription="@string/song_play_state"
+        android:id="@+id/songlist_iv_item_state"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/musing" />
+
+</RelativeLayout>
